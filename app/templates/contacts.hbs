@@ -1,0 +1,10 @@
+<h1> Contacts </h1>
+{{#each model as |contact|}}
+{{#contact}}
+{{contact.FirstName}}
+{{contact.Surname}}
+{{contact.PhoneNumber}}
+{{contact.MobileNumber}}
+{{/contact}}
+{{/each}}
+{{outlet}}
